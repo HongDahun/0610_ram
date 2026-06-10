@@ -1,9 +1,0 @@
-{"vcs1":{"timestamp_begin":1781073815.334711503, "rt":4.75, "ut":4.93, "st":0.24}}
-{"vcselab":{"timestamp_begin":1781073820.146839240, "rt":0.18, "ut":0.12, "st":0.04}}
-{"link":{"timestamp_begin":1781073820.370108843, "rt":0.27, "ut":0.19, "st":0.08}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1781073814.897810568}
-{"VCS_COMP_START_TIME": 1781073814.897810568}
-{"VCS_COMP_END_TIME": 1781073820.726564629}
-{"VCS_USER_OPTIONS": "-full64 -sverilog -ntb_opts uvm-1.2 -timescale=1ns/1ps -debug_access+all -kdb -lca +incdir+tb +incdir+rtl ./rtl/ram.sv ./tb/ram_if.sv ./tb/ram_pkg.sv ./tb/tb_top.sv -o simv"}
-{"vcs1": {"peak_mem": 475068}}
-{"vcselab": {"peak_mem": 174948}}

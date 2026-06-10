@@ -1,4 +1,4 @@
--e work/
+work/
 transcript
 *.log
 *.wlf
@@ -7,3 +7,16 @@ transcript
 *.fsdb
 novas.*
 vsim.dbg
+
+# VCS
+simv
+simv.daidir/
+simv.vdb/
+csrc/
+
+# Coverage
+coverage.vdb/
+vdCovLog/
+
+# Verdi
+verdiLog/
