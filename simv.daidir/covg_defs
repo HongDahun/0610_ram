@@ -1,0 +1,128 @@
+global coverage_group 0 0 ram_pkg::ram_coverage::ram_cg __coverage_ram_coverage.ram_cg unused_ram_coverage_ram_cg_loop_label ram_pkg 0 0 0 0 0  ( 0 
+)
+ 1 1
+ 0 50 /home/pedu37/worksapce/0610_ram/tb/ram_coverage.sv
+ 6 0 0 0 1 0 0 0 0  1
+0
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 91 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_13
+ 0
+0
+0
+0
+64
+0
+ 0
+
+3
+0
+1
+0
+ 5 cp_op 8 0 0 0 0 0 0 88 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn 88 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 4 read 9 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_0 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 5 write 10 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_1 0 0 0 0 0 0 0
+ 0
+
+ 7 cp_addr 13 0 0 0 0 0 0 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_2 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_2 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 8 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 8 1 1 0 0 1 1 8 addr_min 14 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_3 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 9 addr_low1 15 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_4 0 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_5 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 9 addr_low2 16 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_6 0 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_7 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 9 addr_mid1 17 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_8 0 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_9 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 9 addr_mid2 18 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_a 0 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_b 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 10 addr_high1 19 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_c 0 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_d 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 10 addr_high2 20 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_e 0 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_f 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 8 addr_max 21 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 91 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_10 0 0 0 0 0 0 0
+ 0
+
+ 8 cp_wdata 24 0 0 0 0 0 0 91 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_11 91 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_11 0 0 0 0 0 0 91 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_12 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 8 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 3 1 1 0 0 1 1 9 data_zero 25 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_3 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 8 data_max 26 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 91 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_10 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 8 data_etc 27 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_4 0 90 ram_pkg_ram_coverage_11_0::ram_pkg_ram_coverage_11_0_ram_pkg_ram_coverage_11_0_ram_cg_fn_f 0 0 0 0 0
+ 0
+
+ 10 cx_op_addr 0 30 0 0 -1 0 0 0 0 2 0 1 0 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group

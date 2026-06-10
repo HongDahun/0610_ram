@@ -1,0 +1,9 @@
+-e work/
+transcript
+*.log
+*.wlf
+*.vstf
+*.key
+*.fsdb
+novas.*
+vsim.dbg
