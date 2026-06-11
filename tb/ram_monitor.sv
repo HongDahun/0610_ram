@@ -20,6 +20,7 @@ class ram_monitor extends uvm_monitor;
         ram_seq_item tr;
         ram_seq_item pending_rd = null;
 
+        @(r_if.mon_cb);
         forever begin
             @(r_if.mon_cb);
 

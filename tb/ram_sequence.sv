@@ -73,7 +73,7 @@ class ram_random_seq extends ram_base_seq;
         repeat (num) begin
             item = ram_seq_item::type_id::create("item");
             start_item(item);
-            if(!item.randomize() with { write dist{1 := 6, 0 := 4};})
+            if(!item.randomize() with { write dist{1 := 6, 0 := 4}; wdata inside {[8'h00:8'h10]};})
                 `uvm_error("SEQ", "randomize 실패")
             finish_item(item);
         end

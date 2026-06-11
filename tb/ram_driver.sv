@@ -14,6 +14,9 @@ class ram_driver extends uvm_driver#(ram_seq_item);
     endfunction
 
     task run_phase(uvm_phase phase);
+        r_if.drv_cb.write <= 1'b0;
+        r_if.drv_cb.addr <= 0;
+        r_if.drv_cb.wdata <= 0;
         forever begin
             seq_item_port.get_next_item(req);
 
