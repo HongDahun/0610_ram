@@ -20,3 +20,6 @@ vdCovLog/
 
 # Verdi
 verdiLog/
+*.xml
+vc_hdrs.h
+vdCov.conf
